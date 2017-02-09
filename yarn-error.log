@@ -1,0 +1,50 @@
+Arguments: 
+  /home/hkhan/.nvm/versions/node/v6.9.1/bin/node /home/hkhan/.nvm/versions/node/v6.9.1/bin/yarn
+
+PATH: 
+  /home/hkhan/.nvm/versions/node/v6.9.1/bin:/usr/local/heroku/bin:/usr/local/heroku/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:GRADLE_HOME/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/hkhan/Public/Dev-Tools/gradle-3.0/bin
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  6.9.1
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "nodekickstart",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "MANsari",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.15.2",
+      "express": "^4.14.0",
+      "mongoose": "^4.7.6",
+      "bcrypt": "^0.8.5",
+      "jwt-simple": "^0.3.1",
+      "morgan": "~1.5.0",
+      "passport": "^0.3.0",
+      "passport-jwt": "^1.2.1"
+    },
+    "devDependencies": {},
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.63.173:443
+      at Object.exports._errnoException (util.js:1026:11)
+      at exports._exceptionWithHostPort (util.js:1049:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
